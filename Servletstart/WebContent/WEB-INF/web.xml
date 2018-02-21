@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  
+  <servlet>
+  	<servlet-name>ServletI</servlet-name>
+  	<servlet-class>servlet.ServInterface</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>ServletI</servlet-name>
+	<url-pattern>/first</url-pattern>
+	
+	
+	</servlet-mapping>
+	
+	<servlet>
+  	<servlet-name>Cookie</servlet-name>
+  	<servlet-class>com.cookie.cookieimplement</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>Cookie</servlet-name>
+	<url-pattern>/Cookie</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+  	<servlet-name>servlet2</servlet-name>
+  	<servlet-class>com.cookie.servlet2</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>servlet2</servlet-name>
+	<url-pattern>/servlet2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+  	<servlet-name>signup</servlet-name>
+  	<servlet-class>com.login.Signupservlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>signup</servlet-name>
+	<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+  	<servlet-name>Login</servlet-name>
+  	<servlet-class>com.login.LoginServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+  	<servlet-name>logout</servlet-name>
+  	<servlet-class>com.login.LogoutServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>logout</servlet-name>
+	<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+  	<servlet-name>inbox</servlet-name>
+  	<servlet-class>com.login.inboxServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>inbox</servlet-name>
+	<url-pattern>/inbox</url-pattern>
+	</servlet-mapping>
+</web-app>

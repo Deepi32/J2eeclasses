@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23 Feb, 2018 8:41:04 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.inheritance.Employee">
+    
+        <id name="empid" column="id" >
+        <generator class="assigned"></generator>
+                 </id>
+          <property name="name" column="NAME"></property>
+         
+       
+   
+    <union-subclass name="com.inheritance.SEmployee" table="EmployeeTableConcreteSEMP">
+	   <property name="salary"></property>
+    
+    </union-subclass>
+    
+    <union-subclass name="com.inheritance.HEmployee" table="EmployeeTableConcreteHourEMP">
+	   <property name="Workhours" column="HOURS" />
+       <property name="SalperHour"></property>
+      </union-subclass>
+       </class>
+</hibernate-mapping>

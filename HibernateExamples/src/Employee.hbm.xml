@@ -6,7 +6,7 @@
     <class name="com.basic.Employee" table="hbEmployeetable">
     
         <id name="empid" column="id" >
-        <generator class="native"></generator>
+        <generator class="assigned"></generator>
         </id>
         <property name="name" column="Name" />
         <property name="salary" column="Salary"/>

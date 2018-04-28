@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/org.springframework.jdbc-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/antlr-runtime-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/aopalliance.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/commons-pool.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.asm-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.beans-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.context.support-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.context-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.core-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.expression-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.jdbc-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/org.springframework.transaction-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/SpringCoreLibrary/SpringCoreLibrary/spring.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -11,6 +11,10 @@ abstract class AA
 	{
 		return ("In A class"+name+" "+rollno);
 	}
+	void Hello()
+	{
+		System.out.println("i am super hello");
+	}
 
 
 }
@@ -28,6 +32,11 @@ class BB extends AA
 	{
 		return (super.toString()+" "+dept_no);
 	}
+	void Hello()
+	{
+		System.out.println("i am sub hello");
+	}
+
 
 }
 public class abstractclass {
@@ -35,6 +44,7 @@ public class abstractclass {
 	BB b=new BB("deeps",32,"d1");
 	System.out.println(b.toString());
 	AA a=new BB("hj",31,"d2");
+	a.Hello();
 	System.out.println(a);
 	}
 

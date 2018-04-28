@@ -28,5 +28,6 @@
 	<classpathentry kind="lib" path="D:/Eclipse/hibernate-annotations-jar-files/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="D:/Eclipse/hibernate-annotations-jar-files/slf4j-log4j12-1.6.1.jar"/>
 	<classpathentry kind="lib" path="D:/Eclipse/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/ehcache-core-2.4.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -4,7 +4,7 @@ import java.sql.Statement;
 
 public class InsertQuery {
 
-	public static void main(String args[]) throws ClassNotFoundException, SQLException
+	public static void main(String args[])  throws ClassNotFoundException, SQLException
 	{
 		Connection con=ConnectionManager.getConnection();
 		Statement st=con.createStatement();

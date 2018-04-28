@@ -17,6 +17,7 @@
     	<!-- Mapping for TablePerHierarchy -->
 		<!-- <mapping resource ="EmployeeTablePerClass.xml"/>  -->
 		  
-		<mapping resource="EmployeeTablePerConcrete.xml" />
+	<!-- 	<mapping resource="EmployeeTablePerConcrete.xml" />  -->
+		<mapping resource="Employee.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

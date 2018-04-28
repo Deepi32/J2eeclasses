@@ -2,6 +2,26 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   
   <servlet>
+  	<servlet-name>All</servlet-name>
+  	<servlet-class>com.others.HttpSessionServletContextRequestDispatcher</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>All</servlet-name>
+	<url-pattern>/All</url-pattern>
+ </servlet-mapping>
+	
+	 <servlet>
+  	<servlet-name>Allserv</servlet-name>
+  	<servlet-class>com.others.Secondclass</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>Allserv</servlet-name>
+	<url-pattern>/Allserv</url-pattern>
+ </servlet-mapping>
+  
+  
+  
+  <servlet>
   	<servlet-name>ServletI</servlet-name>
   	<servlet-class>servlet.ServInterface</servlet-class>
   </servlet>

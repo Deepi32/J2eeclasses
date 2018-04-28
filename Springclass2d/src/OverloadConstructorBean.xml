@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="OverloadConstructor.Product" id="product1">
+<constructor-arg value="1234.56"></constructor-arg>
+<constructor-arg value="P11"></constructor-arg>
+</bean>
+<bean class="OverloadConstructor.Product" id="product2">
+<constructor-arg value="P11"></constructor-arg>
+<constructor-arg value="2500"></constructor-arg>
+
+</bean>
+
+<bean class="OverloadConstructor.Product" id="product3">
+</bean>
+
+</beans>

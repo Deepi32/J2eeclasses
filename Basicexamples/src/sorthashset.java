@@ -81,12 +81,13 @@ public class sorthashset {
 			}
 			
 		};
-		Collections.sort(ar1,valuecompare);
+		Collections.sort(ar1,valuecompare1);
 		
 		LinkedHashMap ll2=new LinkedHashMap();
 		for(Entry e1:ar1)
 			ll2.put(e1.getKey(),e1.getValue());
 		
+		System.out.println("list is :::::"+ll2);
 		Set<Entry<Integer,String>> s3=h11.entrySet();
 		for(Entry<Integer,String> e3:s3)
 			System.out.println(e3.getKey()+"  "+e3.getValue());

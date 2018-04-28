@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+   xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+
+
+
+<bean id ="ft1" class="com.pojo.FruitsName">
+<property name="fruitsname">
+	<list>
+	<value>Apple</value>
+	<value>Banana</value>
+	<value>Mango</value>
+	<value>Grapes</value>
+	<value>pomegra</value>
+	<value>Tomatoe</value>
+	<value>Apple</value>
+	<value>Apple</value>
+	</list>
+</property>
+
+<property name="coursename">
+		<set>
+		<value>C</value>
+		<value>CPP</value>
+		<value>JAVA</value>
+		<value>Advance java</value>		
+		
+		</set>
+</property>
+</bean>
+
+</beans>

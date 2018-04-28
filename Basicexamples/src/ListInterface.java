@@ -23,17 +23,25 @@ public class ListInterface {
 		//System.out.println(ar.toString());
 		Iterator itr=ar.iterator();
 		System.out.println(itr.getClass().getName());
-	/*	System.out.println();
+		System.out.println();
 		while(itr.hasNext())
 		{
 			System.out.print(itr.next()+" ");
+		//	ar.add("deeps");
 		}
-		System.out.println();*/
+		System.out.println("hello list iterator.................");
 		ListIterator litr=ar.listIterator();
 		while(litr.hasNext())
 		{
-			System.out.print(litr.next()+" "+litr.previousIndex());
+		//	System.out.print(litr.next()+" "+litr.previousIndex());
+			ar.add("deeps");
+			System.out.println(litr.next());
+			
+			
+			
 		}
+		System.out.println("ar list....."+ar);
+		
 		Vector vc=new Vector();
 		vc.addAll(ar);
 		Enumeration er=vc.elements();

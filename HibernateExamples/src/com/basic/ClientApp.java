@@ -14,11 +14,12 @@ public class ClientApp {
 		Transaction t=session.beginTransaction();
 		
 		Employee emp=new Employee();
-		emp.setEmpid(105);
+		emp.setEmpid(109);
 		emp.setName("Rudraksh"
 				+ "");
 		emp.setSalary(159000);
-		session.save(emp);
+		
+		session.saveOrUpdate(emp);
 		t.commit();
 		System.out.println("i m done");
 		

@@ -11,6 +11,12 @@
 		<config>src/CollectionObjectBean.xml</config>
 		<config>src/OverloadConstructorBean.xml</config>
 		<config>src/AutoScanningBean.xml</config>
+		<config>src/AopExampleBean.xml</config>
+		<config>src/JDBCBean.xml</config>
+		<config>src/practicebean.xml</config>
+		<config>src/Inheritancebean.xml</config>
+		<config>src/AopExample1.xml</config>
+		<config>WebContent/WEB-INF/dispatcher-servlet.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

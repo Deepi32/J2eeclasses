@@ -1,0 +1,2 @@
+SUCCESS PAGE
+${msg}
